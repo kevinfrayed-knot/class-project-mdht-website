@@ -18,13 +18,23 @@ h1 {
     padding: 8%;
     
 }
+#hero > div > h1 {
+    text-align: center;
+}
 
 #hero > div > h3 {
     text-align: center;
 }
    
-#menu {
-    display: flex;
-    flex-direction: row;
-    background-color: coral;
+nav > a {
+    color:#fff;
+} 
+
+.center-svg {
+    text-align: center;
+}
+
+#icon-columns {
+    display: grid;
+    align-self: center;
 }
