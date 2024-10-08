@@ -23,3 +23,9 @@
 - seperate booking forms for each dj
 - add calendar of upcoming events
 - add an archive page of past events
+
+### Style Guide
+#### Colors:
+- yellow #F7C851, rgb 247 200 81
+- red #A34133, rgb 163 65 51
+- blue #194379, rgb 25 67 121
