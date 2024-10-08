@@ -36,9 +36,14 @@ nav > a {
 }
 
 i {
-    text-color: #0000;
+    color: #0000;
 }
 #icon-columns{
     display: flex;
     justify-content: space-around;
+}
+#group-image {
+    width: 100%;
+    aspect-ratio: 16/9;
+
 }
