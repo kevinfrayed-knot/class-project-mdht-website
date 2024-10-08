@@ -40,5 +40,5 @@ i {
 }
 #icon-columns{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }

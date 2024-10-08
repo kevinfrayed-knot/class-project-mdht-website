@@ -21,5 +21,5 @@
 
 #### future enhancements/imporvements 
 - seperate booking forms for each dj
-- an calendar of upcoming events
-- an archive page of past events
+- add calendar of upcoming events
+- add an archive page of past events
