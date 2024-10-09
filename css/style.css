@@ -30,8 +30,17 @@ h1 {
 #hero > div > h3 {
     text-align: center;
 }
+
+nav {
+    display: flex;
+    justify-items: center;
+    height: 6rem;
+}
    
 nav > a {
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
     color:#fff;
 } 
 
@@ -68,11 +77,10 @@ section.hero-image {
   /* Set a specific height */
   height: 50%;
 
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
+  /* Position and center the image to scale nicely on all screens 
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  position: relative;*/
 }
 
 /* Place text in the middle of the image */
@@ -102,4 +110,13 @@ section.hero-image {
     border-radius: 5px;
     min-width: 10rem;
     padding: 0.8rem;
+}
+
+.bg-image {
+    background-image: url('../assets/images/mdht_group2.png');
+    /*background-color: transparent;*/
+    z-index: -1;
+    /*scale: 50%;*/
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
