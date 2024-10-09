@@ -17,6 +17,7 @@
 - About(about.html)
 - Contact(contact.html)
 - Booking(booking.html)
+- Dj's(dj.html)
 
 
 #### future enhancements/imporvements 
