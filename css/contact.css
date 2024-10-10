@@ -1,0 +1,96 @@
+/*body, html {
+    height: 100%;
+}*/
+
+.center-page
+{
+  margin: auto;
+}
+
+.center-page > header > h1 {
+    text-align: center;
+}
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+section.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border: 5px;
+    border-color: #02060b;
+}
+
+div >  fieldset >  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+}
+
+section.bg-image {
+    background-image: url('../assets/images/mdht_group2.png');
+    z-index: -1;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    /*padding-top: 10%;*/
+    padding-bottom: 50%;
+    
+    
+}
+
+section.bg-image > div {
+    display: block;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    background-color: #ffffff9a;
+    height: 85vh;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    /*padding-left: 60px;
+    padding-right: 40px;*/
+}
+
+section.bg-image > div > h1, h3 {
+    /*margin-left: 100px;
+    margin-right: 100px;*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.hero-button {
+    background-color: #00457b;
+    color: #fff;
+    border-color: #00457b;
+    border-radius: 5px;
+    min-width: 10rem;
+    padding: 0.5rem;
+}
+
+.hero-button:hover {
+    background-color: #A34133;
+    color: #fff;
+    border-color: #A34133;
+    border-radius: 5px;
+    min-width: 10rem;
+    padding: 0.8rem;
+}
+#get-in-touch > button {
+    background-color: #00457b;
+    color: #fff;
+    border-color: #00457b;
+    border-radius: 5px;
+    min-width: 10rem;
+    padding: 0.5rem;
+}
+#get-in-touch > button:hover {
+    background-color: #A34133;
+    color: #fff;
+    border-color: #A34133;
+    border-radius: 5px;
+    min-width: 10rem;
+    padding: 0.8rem;
+}
