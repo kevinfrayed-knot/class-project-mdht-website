@@ -58,8 +58,14 @@
 <body>
     <main>
         <div>
-        <form>
-            <fieldset>
+            <form>
+                <br>
+                <label>* First Name: </label>
+                <input type="text" placeholder="* First Name required" minlength="5" maxlength="20" required>
+                <br>
+                <label for="date">Booking Date</label>
+                <input type="date">
+                <br>
                 <label for="select">Choose your DJ</label>
                 <select>
                     <option value="0">-select-</option>
@@ -67,14 +73,8 @@
                     <option value="2">Alexander the Average</option>
                     <option value="3">FreeWill</option>
                     <option value="4">Selector Jack</option>
-                </select>
-                <label>* First Name: </label>
-                <input type="text" placeholder="* First Name required" minlength="5" maxlength="20" required>
-                <br/>
-                <label for="date">Booking Date & Time</label>
-                <input type="datetime" >
-            </fieldset>
-        </form>
+                </select>    
+            </form>
         </div>
     </main>
     
