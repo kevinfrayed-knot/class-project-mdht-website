@@ -12,6 +12,10 @@
 - bootstrap
 
 
+# Project Summary
+- A website for a group of DJ's. The main objective is to be a central hub for their digital brand. Additionally users can listen dj mixes by MDHT.
+
+
 # Pages
 - Home(index.html)
 - About(about.html)
