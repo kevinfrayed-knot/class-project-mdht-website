@@ -1,5 +1,6 @@
 # class-project-mdht-website
 # This site is about the DJ group Memphis Disco House & Techno.
+# Site Author: [ Kevin Tutt ],  [kevin@frayed-knot.com ]
 
 [github repo url](https://github.com/kevinfrayed-knot/class-project-mdht-website)
 
