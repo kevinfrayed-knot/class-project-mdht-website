@@ -31,7 +31,7 @@ h1 {
     text-align: center;
 }
 
-nav {
+/*nav {
     display: flex;
     justify-items: center;
     height: 6rem;
@@ -42,7 +42,7 @@ nav > a {
     justify-content: flex-end;
     align-self: center;
     color:#fff;
-} 
+}*/
 
 .center-svg {
     text-align: center;
