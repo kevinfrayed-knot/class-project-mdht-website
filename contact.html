@@ -75,15 +75,15 @@
         <section class="contact-form">
             <div>
                 <fieldset>
-                    <form id="get-in-touch" action="https://formspree.io/f/mpwzzpnl" method="post">
+                    <form id="get-in-touch" action="https://formspree.io/f/mpwzzpnl" method="POST">
                         <label>* First Name: </label>
-                        <input type="text" placeholder="* First Name required" minlength="5" maxlength="10" required>
+                        <input type="text" name="name" placeholder="* First Name required" minlength="5" maxlength="10" required>
                         <br />
-                        <label>Email: </label>
-                        <input type="email" placeholder="Email">
+                        <label>* Email: </label>
+                        <input type="email" name="email" placeholder="* Email" required>
                         <br />
                         <label>Your Message: </label>
-                        <textarea placeholder="Message" cols="30" rows="5"></textarea>
+                        <textarea name="message" placeholder="Message" cols="30" rows="5"></textarea>
                         <p></p>
                         <button type="submit">Submit</button>
                     </form>
