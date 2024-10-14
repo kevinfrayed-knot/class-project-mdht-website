@@ -14,6 +14,10 @@ h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+section {
+    margin-bottom: 0px;
+}
+
 section.bg-image {
     background-image: url('../assets/images/mdht_group2.png');
     z-index: -1;
@@ -21,8 +25,12 @@ section.bg-image {
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
     /*padding-top: 10%;*/
-    padding-bottom: 50%;
+    /*padding-bottom: 50%;*/
     
     
 }
@@ -32,8 +40,7 @@ section.bg-image > div {
     align-items: center;
     text-align: center;
     align-self: center;
-    background-color: #ffffff9a;
-    height: 85vh;
+    height: 100vh;
     padding-top: 100px;
     padding-bottom: 40px;
     /*padding-left: 60px;
